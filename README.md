@@ -11,7 +11,7 @@
 
 -rw-r--r-- 1 root root 32495 Feb 1 02:19 hadoop-yarn- applications-distributedshell-2.2.0.2.0.11.0-1.jar
 
-yarn org.apache.hadoop.yarn.applications.distributedshell.Client -jar hadoop-yarn-applications-distributedshell-2.4.0.2.1.1.0- 385.jar -shell_command cal
+yarn org.apache.hadoop.yarn.applications.distributedshell.Client -jar /usr/hdp/2.3.2.0-2950/hadoop-yarn/hadoop-yarn-applications-distributedshell-2.7.1.2.3.2.0-2950.jar -shell_command cal
 ￼
  
 RuntheJobinTwoContainers
@@ -41,3 +41,5 @@ yarn rmadmin [-refreshQueues]
                [-help [cmd]]
                
               
+
+hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-examples.jar pi -Dmapred.job.queue.name=demo 10 100
