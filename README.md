@@ -24,3 +24,20 @@ You should see 8 calendars this time - one from each container.
 ￼
 NOTE: Look carefully at the log file of your previous application. Notice that the job executed with 9 Containers. One container was the ApplicationMaster, and the other 8 Containers executed the “cal” command.
 ￼￼￼￼￼￼￼￼￼
+
+
+yarn rmadmin [-refreshQueues]
+               [-refreshNodes]
+               [-refreshUserToGroupsMapping] 
+               [-refreshSuperUserGroupsConfiguration]
+               [-refreshAdminAcls] 
+               [-refreshServiceAcl]
+               [-getGroups [username]]
+               [-transitionToActive [--forceactive] [--forcemanual] <serviceId>]
+               [-transitionToStandby [--forcemanual] <serviceId>]
+               [-failover [--forcefence] [--forceactive] <serviceId1> <serviceId2>]
+               [-getServiceState <serviceId>]
+               [-checkHealth <serviceId>]
+               [-help [cmd]]
+               
+              
