@@ -43,3 +43,5 @@ yarn rmadmin [-refreshQueues]
               
 
 hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-examples.jar pi -Dmapred.job.queue.name=demo 10 100
+
+https://github.com/hortonworks/simple-yarn-app
